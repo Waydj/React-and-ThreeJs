@@ -20,6 +20,10 @@ import {
   tesla,
   shopify,
   carrent,
+  pizza_img,
+  adventures_img,
+  employees_img,
+  bank_img,
   jobit,
   tripguide,
   threejs,
@@ -46,17 +50,17 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "React Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "React Native Developer",
+    icon: mobile,
   },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -92,10 +96,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -108,10 +112,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -198,16 +202,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pizzza",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Simulation of an online pizza store using react router v6. The ability to add items to the cart and simulate an order at the address.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "reactrouter",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +219,75 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pizza_img,
+    source_code_link: "https://github.com/Waydj/pizza",
   },
   {
-    name: "Job IT",
+    name: "Worldwise",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An application for marking your travels. The ability to add a place, date and a small review.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "reactleaflet",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "cssmodules",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: adventures_img,
+    source_code_link: "https://github.com/Waydj/Adventures",
   },
   {
-    name: "Trip Guide",
+    name: "Employees",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Application to manage employees in an organization. It has a number of functions, including registration, authorization, creation, viewing, editing and deleting employees.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "reduxtoolkit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TypeScript ",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cssmodules",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: employees_img,
+    source_code_link: "https://github.com/Waydj/react_employees",
+  },
+  {
+    name: "Promo Bank",
+    description:
+      "The welcome page of a fictional bank. Adaptive layout using tailwind.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "landingpage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bank_img,
+    source_code_link: "https://github.com/Waydj/Promo_Bank_React",
   },
 ];
 
