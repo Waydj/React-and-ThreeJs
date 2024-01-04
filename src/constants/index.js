@@ -19,13 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   pizza_img,
   adventures_img,
   employees_img,
   bank_img,
-  jobit,
-  tripguide,
+  sneakers_img,
   threejs,
 } from "../assets";
 
@@ -261,7 +259,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "cssmodules",
+        name: "antdesign",
         color: "pink-text-gradient",
       },
     ],
@@ -288,6 +286,27 @@ const projects = [
     ],
     image: bank_img,
     source_code_link: "https://github.com/Waydj/Promo_Bank_React",
+  },
+  {
+    name: "Sneakers Shop",
+    description:
+      "Online sneaker store using vue js. The ability to add sneakers to the shopping cart and bookmarks. There is a search and sorting.",
+    tags: [
+      {
+        name: "vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vuerouter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sneakers_img,
+    source_code_link: "https://github.com/Waydj/sneakers_vue",
   },
 ];
 

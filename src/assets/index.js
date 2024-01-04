@@ -26,13 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
 import pizza_img from "./pizza_img.png";
 import adventures_img from "./adventures_img.png";
 import bank_img from "./bank_img.png";
 import employees_img from "./employees_img.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import sneakers_img from "./sneakers_img.png";
 
 export {
   logo,
@@ -60,11 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   pizza_img,
   adventures_img,
   employees_img,
   bank_img,
-  jobit,
-  tripguide,
+  sneakers_img
 };
