@@ -55,10 +55,10 @@ const services = [
     title: "React Native Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Vue js Developer",
+    icon: web,
+  },
 ];
 
 const technologies = [
